@@ -1,3 +1,11 @@
+* {
+  border-style: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 body {
     font-family: Helvetica, sans-serif;
     font-size: 1.6rem;
@@ -72,29 +80,28 @@ main {
     text-align: center;
   }
   
+  .divider {
+    background-color:#001F3D;
+    height: 5px;
+  }
+
   section {
     display: block;
 }
 
-  h5 {
-    text-align: center;
-    color: white;
-    display: block;
-  }
   
+
+  
+  /* Footer */
   footer {
     background-color: #001F3D;
-    height: 150px;
+    height: 70px;
   }
   
   .copyright {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .divider {
-    background-color:#001F3D;
-    height: 5px;
+    font-size: 24px;
+    color: white;
+    padding: 20px 0;
   }
 
   a {
